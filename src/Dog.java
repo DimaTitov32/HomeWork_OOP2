@@ -26,4 +26,5 @@ public class Dog extends Pet{
     public void greet(){
         System.out.println("Привет! Меня зовут " + super.getName());
     }
+
 }

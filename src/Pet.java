@@ -35,4 +35,10 @@ public class Pet extends Owner implements Greetings,Playing,ShowInfo,Sleeping,So
     public void voice() {
         System.out.println("Голос");
     }
+
+    @Override
+    public String toString() {
+        return "Имя: " + name  +
+                ", возраст = " + age;
+    }
 }
